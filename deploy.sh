@@ -25,8 +25,9 @@ sleep .5
 
 export apiUrl=/api/v1
 export ApiUrlShoppingCart=/api/v1
-export MongoConnectionString=""
-export SqlConnectionString=""
+export MongoConnectionString="mongodb://fumiosapps30nosql:jTbbbYRndptNsg8lAx9NWQAzybpEjZdHEmnJ5adjKoM476CFHYxCZIkAJduqo5A47LZ8jLV4F1iDZ9w4aRcBLw==@fumiosapps30nosql.documents.azure.com:10255/?ssl=true&replicaSet=globaldb"
+export SqlConnectionString="Server=tcp:fumiosapps30sql.database.windows.net,1433;Initial Catalog=tailwind;Persist Security Info=False;User ID=sekita;Password=Fumiosignitedemo10;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+export ProductImagesUrl="https://fumiosignitdemodiag.blob.core.windows.net/product-detail"
 
 sleep .5
 
